@@ -43,6 +43,15 @@ body {
   }
 }
 
+.skeleton-list {
+  height: calc(100% - 130px);
+  margin: 30px 0 0 0;
+
+  svg {
+    margin-bottom: 15px;
+  }
+}
+
 .users-list {
   height: calc(100% - 130px);
   padding: 0;
@@ -56,8 +65,15 @@ body {
     justify-content: space-between;
     margin-bottom: 15px;
 
-    &>div {
+    & > div {
       display: flex;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+      margin-right: 16px;
+      border-radius: 50%;
     }
 
     h3 {
@@ -68,9 +84,20 @@ body {
 
     p {
       display: flex;
+      align-items: center;
+      margin: 3px 0 0 0;
       font-size: 14px;
       color: rgba(0, 0, 0, 0.5);
 
+      svg {
+        width: 16px;
+        height: 16px;
+        margin-right: 4px;
+
+        path {
+          fill: rgba(0, 0, 0, 0.2);
+        }
+      }
     }
   }
 }
@@ -84,7 +111,7 @@ body {
   outline: none;
   color: #fff;
   background-color: rgb(251, 80, 0);
-  box-shadow: 0 7px 10px rbba(251, 80, 0, 0.4);
+  box-shadow: 0 7px 10px rgba(251, 80, 0, 0.4);
   cursor: pointer;
   transition: all 0.1s ease-in-out;
 
@@ -96,4 +123,19 @@ body {
     transform: translateY(2px);
     box-shadow: none;
   }
+}
+
+
+.circle {
+  // animation: circleAnimation 1.5s ease-in-out infinite;
+}
+
+.rect {
+  // animation: squareAnimation 1.5s ease-in-out infinite;
+}
+
+.smallRect {
+}
+
+.square {
 }
