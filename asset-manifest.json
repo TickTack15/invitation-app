@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/invitation-app/static/css/main.2ee3803c.css",
-    "main.js": "/invitation-app/static/js/main.1358f7a7.js",
+    "main.js": "/invitation-app/static/js/main.862a7ede.js",
     "index.html": "/invitation-app/index.html",
     "main.2ee3803c.css.map": "/invitation-app/static/css/main.2ee3803c.css.map",
-    "main.1358f7a7.js.map": "/invitation-app/static/js/main.1358f7a7.js.map"
+    "main.862a7ede.js.map": "/invitation-app/static/js/main.862a7ede.js.map"
   },
   "entrypoints": [
     "static/css/main.2ee3803c.css",
-    "static/js/main.1358f7a7.js"
+    "static/js/main.862a7ede.js"
   ]
 }
